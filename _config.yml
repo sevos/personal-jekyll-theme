@@ -57,7 +57,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/sevos.jpg"
 
 ##############################
 # Color the browser elements #
@@ -88,7 +88,7 @@ enable-gesture-navigation: False
 
 post-preview-words: 96
 
-paginate: 5
+paginate: 10
 
 email-share: True
 fb-share: True
@@ -174,7 +174,7 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-#  Blog: 'latest-post'
+  Blog: 'latest-post'
   #Timeline: 'timeline'
   Contact: 'contact'
 
