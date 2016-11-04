@@ -259,7 +259,6 @@ a {
   }
 
   p {
-    text-align: left;
     img.inline {
       display: inline !important;
       float: left;
@@ -295,11 +294,15 @@ a {
   }
 
   /* Added in { Personal } */
-  &#post {
+  &#post, &#latest-post {
     div.author img {
       border: 0px;
       margin-bottom: 20px;
       padding: 4px;
+    }
+
+    p {
+      text-align: justify;
     }
   }
 }
