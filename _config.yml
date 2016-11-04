@@ -31,7 +31,7 @@ lang: "en"
 author: "Artur Roszczyk"
 title: "{ sevos.io }"
 description: "Website and blog of Artur Roszczyk, Freelance Software Solutions Architect and Ruby Programmer"
-keywords: "artur, roszczyk, ruby, software development, freelance"
+keywords: "artur, roszczyk, ruby, software development, freelance, sevos, javascript"
 favicon: "/img/favicon.ico"
 
 ################
@@ -46,7 +46,7 @@ background-img: "../img/intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: False
+dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -135,7 +135,7 @@ email: "artur.roszczyk@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: null
 author_blurb_image: "/img/author.png"
 
 ##################
