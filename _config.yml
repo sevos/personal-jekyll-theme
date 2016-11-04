@@ -101,7 +101,7 @@ pinterest-share: False
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "arturroszczyk"
+disqus-shortname: "sevos_io"
 
 syntax-highlight: True
 
@@ -174,7 +174,7 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  #Blog: 'latest-post'
+  Blog: 'latest-post'
   #Timeline: 'timeline'
   Contact: 'contact'
 
