@@ -173,10 +173,12 @@ a {
   padding: 100px 0;
   text-align: center;
   color: $intro-text-color;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$header-background-color-center', endColorstr='$header-background-color-edge', GradientType=1 );  
   {% if site.background-img %}
-  background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: url({{ site.background-img }}) no-repeat bottom center scroll;
   {% endif %}
-  background-color: $header-background-color;
+
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -282,6 +284,9 @@ a {
   pre {
     padding: 0;
     text-align: left;
+    color: white;
+    background: #232323;
+    padding: 10px;
     > code {
       text-align: left;
     }

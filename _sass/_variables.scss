@@ -11,10 +11,11 @@ $font-color: #fff;
 
 $navbar-text-shadow: true;
 $header-text-shadow: true;
-$header-background-color: #644b32;
+$header-background-color-edge: rgba(11,7,4,1);
+$header-background-color-center: #644b32;
 $intro-text-color: $font-color;
 $navbar-color: $font-color;
-$navbar-lg-collapse-background-color: $header-background-color;
+$navbar-lg-collapse-background-color: $header-background-color-center;
 $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
