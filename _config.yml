@@ -103,7 +103,7 @@ vkontakte-share: True
 
 disqus-shortname: "sevos-io"
 
-syntax-highlight: False
+syntax-highlight: True
 
 ############
 # Timeline #

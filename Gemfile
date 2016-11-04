@@ -9,6 +9,4 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "html-proofer"
   gem "jekyll-livereload"
-  #gem "kramdown"
-  #gem "rouge"
 end
