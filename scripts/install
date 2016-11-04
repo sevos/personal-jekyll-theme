@@ -1,3 +1,4 @@
 #!/bin/bash
 
-gem install jekyll jekyll-paginate jemoji html-proofer
+which bundle || gem install bundler
+bundle install
