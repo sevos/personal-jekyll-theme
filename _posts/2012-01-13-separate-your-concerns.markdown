@@ -4,8 +4,6 @@ section-type: post
 title: Separate your concerns
 ---
 
-# Separate your concerns
-
 *This post is written in response to [Keep your privates close](http://robots.thoughtbot.com/post/1986730994/keep-your-privates-close) of Thoughtbot*
 
 At the beginning I must admit that previously I have never thought, that we

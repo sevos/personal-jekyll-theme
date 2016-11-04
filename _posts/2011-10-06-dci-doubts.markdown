@@ -4,8 +4,6 @@ section-type: post
 title: DCI doubts
 ---
 
-# DCI doubts
-
 > Background:
 > *I am working on an application which brings new user interface for legacy
 > system used by customer. There is basic model in the legacy system: Department.

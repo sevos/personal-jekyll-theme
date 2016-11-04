@@ -4,8 +4,6 @@ section-type: post
 title: Failing PostgreSQL on OS X
 ---
 
-# Failing PostgreSQL on OS X
-
 Today there will be only quick tip. Have you ever come back to work on monday
 and seen following error after lanunching your Rails development:
 
