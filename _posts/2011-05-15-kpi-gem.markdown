@@ -65,7 +65,7 @@ report = DailyStatsReport.new
 Each value is cached after calculation while report object exists.
 Calling report methods will trigger calculation and return `KPI::Entry` object:
 
-{% highlight terminal %}
+{% highlight ruby %}
 > report.users
 => #<KPI::Entry:0x10177f630 @name="Users", @unit=nil,
      @description="Total users count", @value=874>;
