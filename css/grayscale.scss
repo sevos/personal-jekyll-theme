@@ -265,6 +265,10 @@ a {
       float: left;
       margin-right: 1.5em;
     }
+    code.highlighter-rouge {
+      background: $primary-color;
+      color: $secondary-color + #333;
+    }
   }
 
   /* Added in { Personal } */
