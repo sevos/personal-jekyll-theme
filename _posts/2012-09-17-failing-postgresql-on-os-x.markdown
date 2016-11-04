@@ -2,6 +2,7 @@
 layout: post
 section-type: post
 title: Failing PostgreSQL on OS X
+category: Quicktips
 ---
 
 Today there will be only quick tip. Have you ever come back to work on monday
