@@ -260,7 +260,7 @@ a {
     border: 1px solid $font-color;
   }
 
-  p {
+  p, ol, ul {
     img.inline {
       display: inline !important;
       float: left;
