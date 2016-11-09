@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 title: Deployment in micro-services era
-category: "Software Delivery"
+category: "Shipping software"
 ---
 
 A solution for deploying a system composed of multiple services requires more than set of features provided by typical PaaS. Such platforms focus usually on deploying a single HTTP service with its backing services like cache, database or messaging broker. They do usually great job. However, most of the projects will end up having more than one service. It may be a background image processing worker, a mailer or separate service written in Elixir for receiving bursts of events from IoT devices.
