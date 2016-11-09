@@ -19,4 +19,4 @@ What traits should a deployment pipeline for a young startup have? Let's go thro
 
 - **system-oriented** I don't want to ship one service. I want to deliver the whole product to the user. This means that even I am currently deploying a single application, the whole system should be taken into the consideration. If some variables change because of my deployment, I want also update all dependencies, and more importantly - in the correct order! I don't want to think about the details **every time**.
 
-This list is not exhaustive. Everyone has own priorities and could add even more to this list. To me, this is essential, when talking about the deployment pipeline, which should be a tool empowering the developer to deliver.
+This list is not exhaustive. Everyone has own priorities and could add even more to it. To me, this is essential for talking about the deployment pipeline, which should be a tool empowering the developer to deliver.
