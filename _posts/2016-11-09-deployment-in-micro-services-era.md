@@ -11,11 +11,11 @@ I think it is very important to find own balance between shiny bells and the bar
 
 What traits should a deployment pipeline for a young startup have? Let's go through the list!
 
-- **fast**. It seems obvious and because it's obvious I believe it's undervalued. "*It's just 10 minutes more, cmon*" - you can hear. The truth is that if your deployment cycle net (and gross) time is unnecessarily long then the developer will refrain from integrating their feature branch often what will increase the cost of merging and synchronization
+- **fast**. It seems obvious and because it's obvious I believe it's undervalued. "*It's just 10 minutes more, cmon*" - you can hear. The truth is that if your deployment cycle net (and gross) time is unnecessarily long then the developer will refrain from integrating their feature branch often. It will increase the cost of merging and synchronization
 
 - **declarative**. I should be able to check in the structure of my system and its configuration into version control. Developers know how to use version control. It's natural for them. It's the easiest thing to use for them. I don't see any reason to use graphical user interface to click out my system. *Why on earth I have to use THE GUI? How to revert my last change?* Declarative deployment pipeline makes me sure that even if I screw up badly, I can rebuild everything automatically, given, I can restore the state of the databases.
 
-- **extensible**. Given I don't want to implement everything today, I want to be able to add more layers and features later: monitoring, centralized logging, ssh key management or custom RabbitMQ server.
+- **extensible**. I don't want to implement everything today, but I want to be able to add more layers and features later: monitoring, centralized logging, ssh key management or custom RabbitMQ server.
 
 - **system-oriented** I don't want to ship one service. I want to deliver the whole product to the user. This means that even I am currently deploying a single application, the whole system should be taken into the consideration. If some variables change because of my deployment, I want also update all dependencies, and more importantly - in the correct order! I don't want to think about the details **every time**.
 
