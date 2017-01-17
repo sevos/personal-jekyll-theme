@@ -53,10 +53,7 @@ loop-count: False # Set False for infinite loop, or set any number for finite lo
 type-speed: 15
 start-delay: 200
 delete-delay: 3000
-lines: # You can add HTML Tags in the Text
-  - text: "Got an idea? Let's prototype together!"
-  - text: "Got a prototype? Let's turn it into MVP together!"
-  - text: "Got an MVP? Let me ship it for you."
+lines: []
 
 me-img: "/img/sevos.jpg"
 
