@@ -5,7 +5,7 @@ title: Turbolinks' lifecycle explained
 tags: [ 'rails', 'javascript' ]
 ---
 
-I've spent the last weekend hunting [nasty](https://github.com/reactjs/react-rails/issues/607) [bugs](https://github.com/shakacode/react_on_rails/issues/706) haunting [projects](https://github.com/renchap/webpacker-react) which are trying to marry Rails 5.1 with Turbolinks and ReactJS on Webpack. The reason, why one would want to do it, is a great topic for another post. However, it appears that there is a misunderstanding of Turbolinks life cycle callbacks spread widly across our community.
+I've spent the last weekend hunting [nasty](https://github.com/reactjs/react-rails/issues/607) [bugs](https://github.com/shakacode/react_on_rails/issues/706) haunting [projects](https://github.com/renchap/webpacker-react) which are trying to marry Rails 5.1 with Turbolinks and ReactJS on Webpack. The reason, why one would want to do it, is a great topic for another post. However, it appears that a misunderstanding of Turbolinks life cycle callbacks has spread widely across our community.
 
 You can read the whole debugging story [in this pull request](https://github.com/renchap/webpacker-react/pull/14#issuecomment-282439136).
 
